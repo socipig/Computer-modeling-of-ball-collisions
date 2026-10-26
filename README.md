@@ -1,2 +1,11 @@
 # Computer-modeling-of-ball-collisions
-Computer Animation od Multiple Ball Coliisions
+Computer Animation of Multiple Ball Coliisions
+目标1:实现一种基于GPU的快速大规模碰撞检测算法
+目标2:使用这种算法完成一个固定场景
+其中有大量小球或者物体。各个小球或物体有不同的半径、质量、初速度和弹性系数，
+利用所实现的最近邻查找算法对小球或物体的运动和碰撞进行仿真，制作一段动画。
+其中，小球或物体均作为刚体考虑即可，无需考虑碰撞引起的自身形变。
+
+目标2的现实实现:完成动画：
+考虑一个四周都是墙壁的浅方形井,然后将大量小球(但数量完全不溢出井)从井底上方
+由静止抛出,经历自由落体和反弹等过程,最终堆积在井底静止的过程
